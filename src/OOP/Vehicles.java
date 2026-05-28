@@ -1,5 +1,6 @@
 package OOP;
-
+package OOP;
+//Create Vehicle interface and concrete classes in oop package
 interface Vehicle {
     void start();
     void stop();
@@ -27,7 +28,7 @@ class Bike implements Vehicle {
     }
 
 }
-public class Main {
+public class Vehicles {
     static void main() {
         Car c = new Car();
         Bike b = new Bike();
@@ -35,5 +36,5 @@ public class Main {
         c.stop();
         b.start();
         b.stop();
-            }
-        }
+    }
+}
