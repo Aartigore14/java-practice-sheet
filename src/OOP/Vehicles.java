@@ -1,5 +1,4 @@
 package OOP;
-package OOP;
 //Create Vehicle interface and concrete classes in oop package
 interface Vehicle {
     void start();
